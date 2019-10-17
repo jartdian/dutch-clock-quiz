@@ -80,6 +80,11 @@ function clearStatusClass(element) {
 const questions = [
   {
     question: "What time is x",
-    answers: [{ text: "4", correct: true }, { text: "22", correct: false }]
+    answers: [
+      { text: "4", correct: true },
+      { text: "22", correct: false },
+      { text: "9", correct: false },
+      { text: "21", correct: false }
+    ]
   }
 ];
