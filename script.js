@@ -98,10 +98,10 @@ const questions = [
   {
     question: "03:10 's ochtends & 15:10 's avonds",
     answers: [
-      { text: "Kwart over vier", correct: false },
-      { text: "Tien over drie", correct: false },
+      { text: "Tien over half vier", correct: false },
+      { text: "Tien over vier", correct: false },
       { text: "Tien over drie", correct: true },
-      { text: "Tien over vier", correct: false }
+      { text: "Tien voor drie", correct: false }
     ]
   },
   {
