@@ -123,15 +123,6 @@ const questions = [
     ]
   },
   {
-    question: "05:20 's ochtends & 17:20 's avonds",
-    answers: [
-      { text: "Tien over half vier", correct: false },
-      { text: "Tien voor half vijf", correct: false },
-      { text: "Tien voor half zes", correct: true },
-      { text: "Tien over half zes", correct: false }
-    ]
-  },
-  {
     question: "06:25 's ochtends & 18:25 's avonds",
     answers: [
       { text: "Vijf over half zeven", correct: false },
