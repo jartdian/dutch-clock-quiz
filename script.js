@@ -139,48 +139,48 @@ const questions = [
     ]
   },
   {
-    question: "07:35 's ochtends & 19:35 's avonds",
+    question: "08:35 's ochtends & 20:35 's avonds",
     answers: [
-      { text: "Vijf voor half zeven", correct: false },
-      { text: "Vijf over half zeven", correct: false },
       { text: "Vijf voor half acht", correct: false },
-      { text: "Vijf over half acht", correct: true }
+      { text: "Vijf over half acht", correct: false },
+      { text: "Vijf voor half negen", correct: false },
+      { text: "Vijf over half negen", correct: true }
     ]
   },
   {
-    question: "08:40 's ochtends & 20:40 's avonds",
+    question: "09:40 's ochtends & 21:40 's avonds",
     answers: [
-      { text: "Tien voor half negen", correct: false },
-      { text: "Tien over half acht", correct: false },
-      { text: "Tien over half negen", correct: true },
-      { text: "Vijf voor half acht", correct: false }
+      { text: "Tien voor half tien", correct: false },
+      { text: "Tien over half negen", correct: false },
+      { text: "Tien over half tien", correct: true },
+      { text: "Vijf voor half negen", correct: false }
     ]
   },
   {
-    question: "09:45 's ochtends & 21:45 's avonds",
+    question: "10:45 's ochtends & 22:45 's avonds",
     answers: [
-      { text: "Kwart over negen", correct: false },
-      { text: "Kwart voor negen", correct: false },
       { text: "Kwart over tien", correct: false },
-      { text: "Kwart voor tien", correct: true }
+      { text: "Kwart voor tien", correct: false },
+      { text: "Kwart over elf", correct: false },
+      { text: "Kwart voor elf", correct: true }
     ]
   },
   {
-    question: "10:50 's ochtends & 22:50 's avonds",
+    question: "11:50 's ochtends & 23:50 's avonds",
     answers: [
-      { text: "Tien over elf", correct: false },
-      { text: "Tien voor elf", correct: true },
-      { text: "Tien voor tien", correct: false },
+      { text: "Tien over twaalf", correct: false },
+      { text: "Tien voor twaalf", correct: true },
+      { text: "Tien voor elf", correct: false },
       { text: "Tien over elf", correct: false }
     ]
   },
   {
-    question: "11:55 's ochtends & 23:55 's avonds",
+    question: "12:55 's avonds & 00:55 's ochtends",
     answers: [
-      { text: "Vijf over twaalf", correct: false },
-      { text: "Vijf voor elf", correct: false },
-      { text: "Vijf voor twaalf", correct: true },
-      { text: "Vijf over elf", correct: false }
+      { text: "Vijf over een", correct: false },
+      { text: "Vijf voor twaalf", correct: false },
+      { text: "Vijf voor een", correct: true },
+      { text: "Vijf over twaalf", correct: false }
     ]
   }
 ];
