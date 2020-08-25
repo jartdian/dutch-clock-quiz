@@ -96,6 +96,24 @@ const questions = [
     ]
   },
   {
+    question: "01:10 's ochtends & 13:10 's avonds",
+    answers: [
+      { text: "Tien over half twee", correct: false },
+      { text: "Tien over twee", correct: false },
+      { text: "Tien over een", correct: true },
+      { text: "Tien voor een", correct: false }
+    ]
+  },
+  {
+    question: "02:15 's ochtends & 14:15 's avonds",
+    answers: [
+      { text: "Kwart over drie", correct: false },
+      { text: "Kwart over drie", correct: false },
+      { text: "Kwart over twee", correct: true },
+      { text: "Kwart voor twee", correct: false }
+    ]
+  },
+  {
     question: "03:10 's ochtends & 15:10 's avonds",
     answers: [
       { text: "Tien over half vier", correct: false },
